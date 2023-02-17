@@ -1,0 +1,25 @@
+{
+  "name": "formzz",
+  "version": "0.0.0",
+  "description": "Form plugin build by Zeker Zichtbaar",
+  "strapi": {
+    "name": "formzz",
+    "description": "Form plugin build by Zeker Zichtbaar",
+    "kind": "plugin",
+    "displayName": "Formzz"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Douwe Pausma"
+  },
+  "maintainers": [
+    {
+      "name": "Douwe Pausma"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
