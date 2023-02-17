@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_component_telephones",
+  "info": {
+    "displayName": "Telephone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Width": {
+      "type": "integer",
+      "max": 100,
+      "min": 0,
+      "default": 100,
+      "required": false
+    },
+    "Required": {
+      "type": "boolean",
+      "default": false
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}

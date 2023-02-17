@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_input_fields_texts",
+  "info": {
+    "displayName": "Text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Width": {
+      "type": "integer",
+      "max": 100,
+      "default": 100,
+      "min": 0
+    },
+    "Required": {
+      "type": "boolean",
+      "default": false
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}
