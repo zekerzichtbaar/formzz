@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_submissions",
+  "info": {
+    "singularName": "form-submission",
+    "pluralName": "form-submissions",
+    "displayName": "Form Submissions"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "submissionData": {
+      "type": "json",
+      "pluginOptions": {}
+    }
+  }
+}

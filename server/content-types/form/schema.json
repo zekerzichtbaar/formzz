@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "Form"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Fields": {
+      "type": "dynamiczone",
+      "components": [
+        "input-fields.email",
+        "input-fields.text",
+        "input-fields.select",
+        "input-fields.textarea",
+        "input-fields.telephone",
+        "input-fields.submit"
+      ],
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string",
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_input_fields_submits",
+  "info": {
+    "displayName": "Submit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Width": {
+      "max": 100,
+      "min": 0,
+      "default": 100,
+      "type": "integer"
+    },
+    "Required": {
+      "type": "boolean",
+      "default": false
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}
