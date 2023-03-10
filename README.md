@@ -3,21 +3,20 @@
 Formzz is a Strapi plugin that allows you to create forms through collection types.
 
 ## Get started
-Download the .zip and extract it in *"<your_strapi_project>/src/plugins"*
 
-`cd src/plugins/formzz && yarn run install-components`
+Install formzz by running the install command in your Strapi root.
 
-Add the following to *"<your_strapi_project>/config/plugins.js"*
-```
-formzz: {
-  enabled: true,
-  resolve: './src/plugins/formzz',
-},
-```
+`npm install @zekerzichtbaar/formzz` or `yarn add @zekerzichtbaar/formzz`
+
+Formzz should automatically install input-field components. If for some reason this does not happen, try running:
+
+`npx formzz init`
+
 **Strapi TODO**
-- [ ] Publish plugin as npm package for strapi
+- [x] Publish plugin as npm package for strapi
+- [x] Remove default settings page
 - [ ] Add redirect location field
-- [ ] Remove default settings page
+- [ ] Add sender email adress field
 
 **Nuxt TODO**
 - [ ] Rewrite to composition api.
