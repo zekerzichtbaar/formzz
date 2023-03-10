@@ -1,5 +1,5 @@
 {
-  "name": "formzz",
+  "name": "@zekerzichtbaar/formzz",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
@@ -21,9 +21,9 @@
     "make-runnable": "^1.4.1",
     "prop-types": "^15.7.2"
   },
-  "author": "A Strapi developer",
+  "author": "Douwe Pausma",
   "maintainers": [
-    "A Strapi developer"
+    "Douwe Pausma"
   ],
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
