@@ -17,9 +17,5 @@ Formzz should automatically install input-field components. If for some reason t
 - [x] Remove default settings page
 - [ ] Add redirect location field
 - [ ] Add sender email adress field
-
-**Nuxt TODO**
-- [ ] Rewrite to composition api.
-- [ ] Add 'loading please wait' after submit and before redirect.
-- [ ] Make redirect location after submission dynamic.
-- [ ] Publish plugin as npm package for nuxt
+- [ ] Add configurable email templates
+- [ ] Add `allFields()` in lifecycles.js to show all fields in table
